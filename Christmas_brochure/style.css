@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+    
+
+div.cover{
     background-image: url(./coverimage.avif);
-    background-size:cover;
+    background-size: cover;
     display: flex;
     
 }
