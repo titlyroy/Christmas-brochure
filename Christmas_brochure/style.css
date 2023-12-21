@@ -7,8 +7,12 @@
 
 div.cover{
     background-image: url(./coverimage.avif);
-    background-size: cover;
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+
     display: flex;
+    
     
 }
 
@@ -17,7 +21,7 @@ border: 10px ;
 box-shadow: #00000040 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 background-color:#fdfcdc;  
 width: 1000px;
-margin-left: 80px;
+margin-left: 20px;
 padding: 10px;
 display:flex;
 flex-direction: row;
@@ -191,23 +195,23 @@ div.logo>a:hover{
 /* for the outer most div.christmas */
 div.christmas{
     text-align: center;
-    margin:  180px;
-    font-size: 100px;
+   margin:50px;
+    font-size: 80px;
     color:#faedcd;
     font-family: 'Cookie', cursive;
 font-family: 'Fugaz One', sans-serif;
 font-family: 'Great Vibes', cursive;
      border: #fdfcdc 5px solid ;
      border-radius: 50%;
-    height: 300px;
-    width:300px ;
+    height: 250px;
+    width:250px ;
     padding: 50px;
     background-color: #4b0608;
     animation:music 5s ease-in-out 1s infinite alternate ;
 
 }
 @keyframes music {
-    from {transform:scale(0.5) }
+    from {transform:scale(0.8) }
     to {transform:scale(1)}
     
 }
