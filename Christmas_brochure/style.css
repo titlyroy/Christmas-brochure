@@ -116,6 +116,7 @@ div.about>h2 , div.application>h2 {
     font-size: 25px;
     font-weight: 700;
  }
+
  div.item2 p {
     font-size: 20px;
  }
@@ -178,7 +179,6 @@ div.logo>h3{
 div.logo>a:hover{
 
     color:rgb(134, 31, 48);
-    font-size: 40px;
     text-decoration: underline;
 
 }
